@@ -1,0 +1,15 @@
+.cardShadow {
+  box-shadow: 0 5px 5px 5px grey;
+}
+
+mat-card {
+  /* background-color: #9FEDD7; */
+  /* color: white; */
+
+}
+
+:host ::ng-deep .mat-button.mat-focus-indicator.mat-button-base{
+  padding: 0;
+  min-width: 0;
+}
+

@@ -1,0 +1,18 @@
+<div class="container mt-3 mb-3">
+  <div class="col-sm-12">
+    <mat-card class="cardShadow">
+      <mat-card class="cardShadow">
+        <div class="h6 text-center">{{item.title}}</div>
+      </mat-card>
+      <div class="mt-3 p-3">{{item.detail}}</div>
+        <div class="row">
+        <div class="col-sm-12 text-right">
+          <button mat-button (click)="deleteItem(index)"><mat-icon>check_circle</mat-icon></button>
+        </div>
+        <!-- <div class="col-sm-6 text-right">
+          <button mat-button > <mat-icon> delete </mat-icon></button>
+        </div> -->
+      </div>
+    </mat-card>
+  </div>
+</div>
